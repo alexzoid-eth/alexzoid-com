@@ -203,7 +203,7 @@ This time, the rule is violated on the mutated code, which means it successfully
 
 ### Test with the mutation engine
 
-Certora’s `certoraMutate` framework offers an automated mutation engine called [Gambit](https://github.com/Certora/gambit), plus a web dashboard and server infrastructure for parallel testing.
+Certora’s `certoraMutate` framework offers an automated mutation engine called [Gambit](https://github.com/Certora/gambit), plus a web [dashboard](https://prover.certora.com/mutations) and server infrastructure for parallel testing.
 
 It can check both manually added mutations and automatically generated ones (small modifications like changing arithmetic operators, commenting out lines, etc.). In the [certora/confs/PositionManager.conf](https://github.com/Certora/uniswap-v4-periphery-cantina-fv/blob/main/certora/confs/PositionManager.conf) file, you’ll see something like:
 
@@ -239,7 +239,7 @@ Under the hood, it:
 3. Tests each manual mutation in `certora/mutations/PositionManager` one by one.
     
 
-Check your results on the [mutation dashboard](https://prover.certora.com/mutations). For my run, I got: [https://mutation-testing.certora.com/?id=7205302c-9702-4bc5-82e3-63d9408287e1...](https://mutation-testing.certora.com/?id=7205302c-9702-4bc5-82e3-63d9408287e1&anonymousKey=ca0fc1c6-72cf-4609-ac64-ef6b50ebb4ea). You can see that the `destinationCanReceiveToken` rule catches the `PositionManager_P0` mutation.
+For my run, I got: [https://mutation-testing.certora.com/?id=7205302c-9702-4bc5-82e3-63d9408287e1...](https://mutation-testing.certora.com/?id=7205302c-9702-4bc5-82e3-63d9408287e1&anonymousKey=ca0fc1c6-72cf-4609-ac64-ef6b50ebb4ea). You can see that the `destinationCanReceiveToken` rule catches the `PositionManager_P0` mutation.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1740478512738/b3a72b0d-7184-4935-8467-d067730e379a.png align="center")
 
