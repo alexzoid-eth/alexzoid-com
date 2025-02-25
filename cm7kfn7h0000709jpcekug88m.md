@@ -203,7 +203,7 @@ This time, the rule is violated on the mutated code, which means it successfully
 
 ### Test with the mutation engine
 
-Certora’s `certoraMutate` framework offers an automated mutation engine called Gambit, plus a web dashboard and server infrastructure for parallel testing.
+Certora’s `certoraMutate` framework offers an automated mutation engine called [Gambit](https://github.com/Certora/gambit), plus a web dashboard and server infrastructure for parallel testing.
 
 It can check both manually added mutations and automatically generated ones (small modifications like changing arithmetic operators, commenting out lines, etc.). In the [certora/confs/PositionManager.conf](https://github.com/Certora/uniswap-v4-periphery-cantina-fv/blob/main/certora/confs/PositionManager.conf) file, you’ll see something like:
 
