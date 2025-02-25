@@ -24,7 +24,7 @@ This tutorial is divided into two parts:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1740474458089/23d1baac-69bf-495d-b661-c560ee7344ba.png align="center")
 
-## What are Certora contests?
+## Overview of Certora Contests
 
 Certora contests revolve around Formal Verification (FV). FV isn’t meant to replace other security measures; it's an additional layer on top of manual reviews (including static analyzers, integrity checks, or fuzzing tests). That’s why Certora contests often complement standard audit contests, such as those held by [code4arena](https://code4rena.com/audits), [hats.finance](https://app.hats.finance/), and [cantina](https://cantina.xyz/). This is fantastic because you can participate in both contests and FV pools simultaneously.
 
@@ -32,7 +32,7 @@ You can find announcements on Certora’s official site under the [community con
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1740474861974/7c3c3b01-66ec-4be7-93f9-bfa4a0059d78.png align="center")
 
-## What needs to be done there?
+## Core Tasks
 
 If you come from regular audit contests, you know you’re typically paid for finding bugs and writing PoCs: the more unique bugs you find, the larger your share of the prize. However, in Certora contests, you’re rewarded for writing FV specifications. The higher the quality of your specifications, the larger your incentive.
 
@@ -44,7 +44,7 @@ FV specifications consist of rules and invariants in a Solidity-like language ca
 
 For more examples, check out my past contest repositories for [Euler](https://github.com/alexzoid-eth/euler-vault-cantina-fv) and [UniswapV4](https://github.com/alexzoid-eth/uniswap-v4-periphery-cantina-fv). You’ll also find numerous example rules in Certora’s public [audit reports](https://www.certora.com/audits).
 
-## How the work is evaluated?
+## Work Evaluation
 
 The judging process leverages [mutation testing](https://x.com/alexzoid_eth/status/1806165687012130904). It modifies the source code and checks whether those modifications are caught by your specifications. Each mutation is a modified copy of the source code file.
 
@@ -88,7 +88,7 @@ In Certora contests, there are two types of mutations: **public** and **private*
 * **Private mutations** are revealed after the contest ends. They’re tied to the main **Coverage** pool and allow judges to evaluate the quality of your specifications more comprehensively.
     
 
-## How the pool is distributed?
+## Prize Pool Distribution
 
 Yes, Certora contests have a separate judging process and prize pool - often [up to $100k](https://www.certora.com/contests). In recent contests, the FV pool has been split into [three categories](https://github.com/Certora/silo-v2-cantina-fv/blob/main/README.md?plain=1#L53-L56):
 
