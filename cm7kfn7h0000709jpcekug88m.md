@@ -11,8 +11,6 @@ tags: security, solidity, smart-contracts, formal-verification, certora
 
 ---
 
-## Intro
-
 What are Certora contests? How do they differ from standard audit competitions? How do you get started? Are there any specific nuances? You’ll find the answers to all of these questions here. At the time of writing this article, I’ve participated in nine contests over the past 1.5 years and climbed to the top of the [leaderboard](https://www.certora.com/leaderboard).
 
 This tutorial is divided into two parts:
