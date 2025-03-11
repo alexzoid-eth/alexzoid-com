@@ -17,7 +17,7 @@ This tutorial is divided into two parts:
 
 1. General information about contests.
     
-2. A practical walkthrough - a step-by-step guide to catching a public mutation from the previous [Uniswap V4 contest](https://cantina.xyz/competitions/e2cf6906-ec8b-4c78-a585-74ac90615659).
+2. A practical walkthrough - a step-by-step guide to catching a public mutation from the previous [Uniswap v4 contest](https://cantina.xyz/competitions/e2cf6906-ec8b-4c78-a585-74ac90615659).
     
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1740474458089/23d1baac-69bf-495d-b661-c560ee7344ba.png align="center")
@@ -40,7 +40,7 @@ FV specifications consist of rules and invariants in a Solidity-like language ca
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1740389556234/280e6552-6ef2-46c9-a6c2-2ea81514b02e.png align="center")
 
-For more examples, check out my past contest repositories for [Euler](https://github.com/alexzoid-eth/euler-vault-cantina-fv) and [UniswapV4](https://github.com/alexzoid-eth/uniswap-v4-periphery-cantina-fv). You’ll also find numerous example rules in Certora’s public [audit reports](https://www.certora.com/audits).
+For more examples, check out my past contest repositories for [Euler](https://github.com/alexzoid-eth/euler-vault-cantina-fv) and [Uniswap v4](https://github.com/alexzoid-eth/uniswap-v4-periphery-cantina-fv). You’ll also find numerous example rules in Certora’s public [audit reports](https://www.certora.com/audits).
 
 ### Work Evaluation
 
@@ -99,7 +99,7 @@ Yes, Certora contests have a separate judging process and prize pool - often [up
 
 ## Practice Part
 
-Let’s go through the step-by-step process of the FV contest. We’ll use a previous [Uniswap V4 contest](https://cantina.xyz/competitions/e2cf6906-ec8b-4c78-a585-74ac90615659) to build a specification for a public mutation.
+Let’s go through the step-by-step process of the FV contest. We’ll use a previous [Uniswap v4 contest](https://cantina.xyz/competitions/e2cf6906-ec8b-4c78-a585-74ac90615659) to build a specification for a public mutation.
 
 For a detailed Certora setup, see [First Steps with Certora Formal Verification](https://alexzoid.com/first-steps-with-certora-fv-catching-a-real-bug) tutorial.
 
