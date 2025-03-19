@@ -1,5 +1,5 @@
 ---
-title: "Practical Guide to Certora Formal Verification Contests"
+title: "Inside Certora Formal Verification Contests"
 seoTitle: "Certora Formal Verification: Step-by-Step Guide"
 seoDescription: "Learn how Certora Formal Verification contests differ from standard audits, explore best practices, and catch a real Uniswap V4 mutation bug."
 datePublished: Tue Feb 25 2025 11:58:06 GMT+0000 (Coordinated Universal Time)
